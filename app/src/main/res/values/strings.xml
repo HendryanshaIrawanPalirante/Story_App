@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="logout">Logout</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="tidak_ada">Tidak ada</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="masukan_deskripsi">Masukan Deskripsi</string>
+    <string name="upload">Upload</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="retry">Coba lagi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

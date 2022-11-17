@@ -1,0 +1,46 @@
+Unit Testing Skenario
+
+Class RegisterViewModelTest:
+1. when Register Should Not Null and Return Success
+- Memastikan pengambilan data berupa LiveData<ResourceData<RegisterResponse>>
+- Memastikan data tidak null
+
+Class LoginViewModelTest:
+1. when Login Should Not Null Return Success
+- Memastikan pengambilan data berupa LiveData<ResourceData<LoginResponse?>>
+- Memasitkan data tidak null
+
+Class StoryViewModelTest
+1. when Get Story Should Not Null And Return Success
+- Memastikan mengembalikan nilai berupa LiveData<PagingData<ListStoryItem>>
+- Memastikan data tidak null
+- Memastikan jumlah data sesuai dengan yang diharapkan
+
+Class MapsViewModelTest
+1. when Get Maps Should Not Null and Return Succes
+- Memastikan mengambalikan nilai berupa LiveData<ResourceData<ResponseAllStory>>
+- Memastikan data tidak null
+
+Class MainViewModelTest
+1. when getUser Should Not Null
+- Memastikan data tidak null
+
+2. when Methods saveUser Call Successfully
+- Memastikan bahwa metode saveUser terpanggil
+
+3. when Methods logout Call Successfully
+- Memastikan bahwa metode logout terpanggil
+
+Class StoryRepository
+1. when Get Story Should Not Null
+- Memastikan mengembalikan nilai berupa LiveData<PagingData<ListStoryItem>>
+- Memastikan data tidak null
+
+2. when Get Login Should Not Null
+- Memastikan data tidak null
+
+3. when Get Register Should Not Null
+- Memastikan data tidak null
+
+4. when Get Location Should Not Null
+- Memastikan data tidak null
